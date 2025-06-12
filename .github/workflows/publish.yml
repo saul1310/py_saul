@@ -28,6 +28,10 @@ jobs:
         run: |
           flit build
 
+      - name: List dist contents
+        run: |
+          ls -al dist
+
       - name: Publish to TestPyPI
         env:
           TWINE_USERNAME: __token__
