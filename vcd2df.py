@@ -1,6 +1,6 @@
 """Value Change Dump to Data Frame (Pandas)"""
 
-__version__ = "1.0"
+__version__ = "1.0.1"
 
 import pandas as pd
 
